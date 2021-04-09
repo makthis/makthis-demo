@@ -1,11 +1,11 @@
 {
-    "name": "mak_this_redux",
-    "short_name": "mak_this_redux",
-    "start_url": ".",
+    "name": "MakThis Demo",
+    "short_name": "MakThis Demo",
+    "start_url": "/makthis-demo/",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Fast, Affordable, and Good——Pick All Three.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

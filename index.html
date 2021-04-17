@@ -17,6 +17,22 @@
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Turn your online store into a beautiful Mobile app with one-click. Fast, Affordable, & Good——Pick all three.">
 
+  <!-- Facebook OpenGraph -->
+  <meta name="og:description"
+    content="Turn your ecommerce store into a beautiful, performant Mobile App, with just one-click, at an affordable price.">
+  <meta name="og:title" content="MakThis—Fast, Affordable, & Good. Pick all three.">
+  <meta name="og:url" content="http://makthis.co">
+  <meta name="og:type" content="website">
+  <meta name="og:image" content="img/01.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:description"
+    content="Turn your ecommerce store into a beautiful, performant Mobile App, with just one-click, at an affordable price.">
+  <meta name="twitter:title" content="MakThis—Fast, Affordable, & Good. Pick all three.">
+  <meta name="twitter:image" content="img/01.png">
+  <meta name="twitter:site" content="@makthisnow">
+
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -38,6 +54,16 @@
 
   <title>MakThis Protoype</title>
   <link rel="manifest" href="manifest.json">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WPE296N8WV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WPE296N8WV');
+  </script>
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -46,7 +72,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=423758328');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=156389986');
       });
     }
   </script>
